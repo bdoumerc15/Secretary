@@ -37,3 +37,6 @@ class File:
         with open(self.absolute_path, 'w') as file:
             file.write(self.text)
             print('Archivo escrito correctamente')
+
+
+file = File()
